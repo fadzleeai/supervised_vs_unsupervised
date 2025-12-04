@@ -12,10 +12,9 @@ train_ratio = 0.8
 
 # Target categories (flexible matching)
 target_categories = [
-    'plastic_detergent_bottles',
-    'plastic_cup_lids',
-    'plastic_shopping_bags',
-    'plastic_soda_bottles'
+    'plastic_water_bottles',
+    'aluminum_soda_cans',
+    'cardboard_boxes',
 ]
 
 # Create output folders

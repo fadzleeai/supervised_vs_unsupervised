@@ -2,3 +2,6 @@ dataset_split
 images
 .venv
 test.py # JUNK
+DEEP_LEARNING
+training_folds
+ml_image_dataset
