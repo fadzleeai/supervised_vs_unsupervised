@@ -2,20 +2,15 @@ import os
 import shutil
 import random
 
-# Source directory (already extracted)
+# Source directory
 source_dir = "images"
 
 # Output directory
 output_dir = "dataset_split"
-
 train_ratio = 0.8
 
-# Target categories (flexible matching)
-target_categories = [
-    'plastic_water_bottles',
-    'aluminum_soda_cans',
-    'cardboard_boxes',
-]
+# Target categories
+target_categories = ['plastic_water_bottles','aluminum_soda_cans','cardboard_boxes',]
 
 # Create output folders
 train_dir = os.path.join(output_dir, "train")
